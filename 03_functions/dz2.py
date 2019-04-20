@@ -7,7 +7,6 @@ def is_prime(a):
 
     return True
 
-
 a = is_prime(1)
 
 for num in range(2, 100):
