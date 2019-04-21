@@ -18,4 +18,4 @@ def count(n):
                 break
             print(num)
 
-n = count(30)
+n = count(100)
