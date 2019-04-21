@@ -12,13 +12,13 @@ a = is_prime(1)
 num1 = int(input("От:"))
 num2 = int(input("До:"))
 
-def number(n):
-    c = 1
+def count(n):
+    c = 0
     for num in range(num1, num2):
         if is_prime(num):
             c += 1
-            if c > n + 1:
+            if c > n:
                 break
             print(num)
 
-n = number(100)
+n = count(30)
